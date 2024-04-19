@@ -1,0 +1,62 @@
+/* Dashboard.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --second-color: #a09dab;
+  --main-color: #000000;
+  /* --big-font: 3rem; */
+}
+
+body {
+  /* background-image: url('111.jpg'); */
+  background-color: #8395f6;
+  font-weight: 500;
+  background-size: cover;
+  /* background-color: var(--bg-color); */
+  background-repeat: no-repeat;
+}
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: var(--big-font);
+  margin-bottom: 40px;
+  color: var(--main-color);
+}
+
+/* .upload-container {
+  text-align: center;
+}
+
+.upload-container input[type="file"] {
+  display: none;
+}
+
+.upload-btn {
+  background-color: var(--main-color);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #0d004a;
+} */

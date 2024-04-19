@@ -1,0 +1,44 @@
+:root {
+  --bg-color: #fbfbfb;
+  --text-color: #000;
+  --second-color: #a09dab;
+  --main-color: #150472;
+  --big-font: 4rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #0d004a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  align-items: center; 
+}
+
+input[type="text"] {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  border: 1px solid var(--second-color);
+  border-radius: 8px; 
+  font-size: 18px; 
+  width: 100%; 
+}
+
+button[type="submit"] {
+  padding: 14px 28px; 
+  background-color:#091cae;
+  color: white;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  font-size: 18px; 
+  transition: background-color 0.3s ease;
+  width: 100%; 
+  max-width: 200px; 
+}

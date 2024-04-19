@@ -1,0 +1,77 @@
+/* DNSRecordTable.css */
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Jost', sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #d7cfcf;
+  --second-color: #000000;
+  --main-color: #6d57ec;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th{
+  font-weight: 600;
+  
+}
+
+th, td {
+  border: 1px solid var(--second-color);
+  padding: 20px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(3, 29, 193);
+  font-weight: bold;
+  color: white;
+}
+
+.deleteButton{
+  margin-top:4px;
+  padding:5px;
+  border-radius:7px;
+  cursor: pointer;
+}
+
+.editButton{
+  border-radius:7px;
+  padding:5px;
+  cursor: pointer;
+}
+/* tr:hover {
+  background-color: var(--second-color);
+} */
+
+/* button {
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+} */
+
+/* button:hover {
+  background-color: #806fcc;
+} */
+
+tr {
+  background-color: var(--bg-color); 
+  color: var(--text-color);
+  transition: background-color 0.3s ease; 
+  text-align: center; 
+}
+
